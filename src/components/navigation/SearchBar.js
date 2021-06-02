@@ -15,7 +15,7 @@ export function SearchBar({placeholder, query, onChange}) {
             <div className="select-platform">
                 <select value={selectItems.value} >
                     {selectItems.map(({value}) => 
-                        <option key={selectItems.id} value={value}>{value}</option>
+                        <option key={value} value={value}>{value}</option>
                     )}
                 </select>
             </div>
