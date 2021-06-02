@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #D13F3F;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 1em 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 2em;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+nav ul li a{
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* nav ul li .active{
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+} */
+
+
+/* SEARCH BAR */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  width: 80%;
+}
+
+input {
+  background-color: #666666;
+  border: 1px solid #666666;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+.select-platform {
+  width: auto;
+}
+
+.select-platform select{
+  background-color: #666666;
+  border: 1px solid #666666;
+  padding: 1em;
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
