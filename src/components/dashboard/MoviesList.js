@@ -45,7 +45,7 @@ export function MoviesList() {
             })
             .then(response => response.json())
             .then((data) => {
-                setMovies(data.data[0])
+                setMovies(data.data)
                 setIsLoading(false);
             })
             .catch(err => {
